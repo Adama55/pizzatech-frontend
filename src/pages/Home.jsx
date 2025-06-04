@@ -18,7 +18,7 @@ export default function Home() {
 
     return (
         <Container className="mt-4">
-            <h2 className="mb-4 text-center text-warning">Nos délicieuses pizzas 🍕</h2>
+            <h2 className="mb-4 text-center text-warning">Nos délicieuses pizzas</h2>
             <Row>
                 {pizzas.map((pizza) => (
                     <Col md={4} sm={6} xs={12} key={pizza.id} className="mb-4">
