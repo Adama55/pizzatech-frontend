@@ -1,0 +1,27 @@
+.custom-navbar {
+    background: linear-gradient(90deg, #ff4500, #ff0000);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo-text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link-custom {
+    color: #fff !important;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+    color: #ffd700 !important; /* Jaune doré */
+}
+
+@media (max-width: 768px) {
+    .custom-navbar {
+        padding: 10px 20px;
+    }
+}
