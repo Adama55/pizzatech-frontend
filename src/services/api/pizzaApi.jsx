@@ -12,3 +12,13 @@ export const getPizzas = async () => {
         return [];
     }
 };
+
+export const createPizza = async (pizzaData) => {
+    try {
+        const response = await axios.post(`${API_URL}/api/pizzas/`, pizzaData);
+        return response.data;
+    } catch (error) {
+        console.error("Erreur lors de la création de la pizza :", error);
+        throw error;
+    }
+};
