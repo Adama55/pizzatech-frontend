@@ -13,7 +13,7 @@ export default function Panier() {
 
                     </Col>
                 </Row>
-                {/* Ajoute d'autres sections ici */}
+
             </Container>
         </div>
     );
