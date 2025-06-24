@@ -8,7 +8,6 @@ function Header() {
     const [user, setUser] = useState(null);
 
     useEffect(() => {
-        // Simuler l'état utilisateur (à remplacer par un vrai appel)
         const fetchUserData = async () => {
             const userData = {
                 isAuthenticated: true,
@@ -21,7 +20,6 @@ function Header() {
     }, []);
 
     const handleLogout = () => {
-        // Simule la déconnexion
         setUser(null);
     };
 
